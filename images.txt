@@ -1,6 +1,8 @@
-nginx
-grafana/loki
-grafana/promtail
-grafana/grafana
+#nginx
+#grafana/loki
+#grafana/promtail
+#grafana/grafana
+prom/prometheus
+gcr.io/cadvisor/cadvisor
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
