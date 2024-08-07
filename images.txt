@@ -5,6 +5,7 @@
 #prom/prometheus
 #gcr.io/cadvisor/cadvisor
 #registry:2
-intersectraven/subversion-edge
+#intersectraven/subversion-edge
+netdata/netdata
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
