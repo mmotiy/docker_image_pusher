@@ -13,5 +13,6 @@
 #openjdk:8-jdk
 redis:latest
 mongo:latest
+containrrr/watchtower
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
