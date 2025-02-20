@@ -11,10 +11,11 @@
 #gitlab/gitlab-ce
 #openjdk:11-jdk
 #openjdk:8-jdk
-redis:latest
-mongo:latest
-openjdk:11-jre
-openjdk:8-jre
-containrrr/watchtower
+#redis:latest
+#mongo:latest
+#openjdk:11-jre
+#openjdk:8-jre
+#containrrr/watchtower
+ghcr.io/open-webui/open-webui:main
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
