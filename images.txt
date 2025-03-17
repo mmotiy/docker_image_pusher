@@ -7,7 +7,7 @@
 #registry:2
 #intersectraven/subversion-edge
 #netdata/netdata
-#gitlab/gitlab-ce:15.11.13-ce.0
+gitlab/gitlab-ce:15.11.13-ce.0
 #gitlab/gitlab-ce
 #openjdk:11-jdk
 #openjdk:8-jdk
@@ -16,8 +16,8 @@
 #openjdk:11-jre
 #openjdk:8-jre
 #containrrr/watchtower
-ghcr.io/open-webui/open-webui:main
-gitlab/gitlab-runner
-minio/minio
+#ghcr.io/open-webui/open-webui:main
+#gitlab/gitlab-runner
+#minio/minio
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
