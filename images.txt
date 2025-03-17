@@ -17,5 +17,7 @@
 #openjdk:8-jre
 #containrrr/watchtower
 ghcr.io/open-webui/open-webui:main
+gitlab/gitlab-runner
+minio/minio
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
