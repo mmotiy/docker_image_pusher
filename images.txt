@@ -9,6 +9,7 @@
 #netdata/netdata
 #gitlab/gitlab-ce:15.11.13-ce.0
 rabbitmq
+docker.io/library/node:20-alpine
 #gitlab/gitlab-ce
 #openjdk:11-jdk
 #openjdk:8-jdk
