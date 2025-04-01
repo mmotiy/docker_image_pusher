@@ -8,8 +8,8 @@
 #intersectraven/subversion-edge
 #netdata/netdata
 #gitlab/gitlab-ce:15.11.13-ce.0
-rabbitmq
-docker.io/library/node:20-alpine
+#rabbitmq
+#docker.io/library/node:20-alpine
 #gitlab/gitlab-ce
 #openjdk:11-jdk
 #openjdk:8-jdk
@@ -18,7 +18,7 @@ docker.io/library/node:20-alpine
 #openjdk:11-jre
 #openjdk:8-jre
 #containrrr/watchtower
-#ghcr.io/open-webui/open-webui:main
+ghcr.io/open-webui/open-webui:main
 #gitlab/gitlab-runner
 #minio/minio
 #支持指定架构
