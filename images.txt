@@ -19,9 +19,63 @@
 #openjdk:8-jre
 #containrrr/watchtower
 #ghcr.io/open-webui/open-webui:main
-confluentinc/cp-zookeeper:7.3.0
-confluentinc/cp-kafka:7.3.0
+#confluentinc/cp-zookeeper:7.3.0
+#confluentinc/cp-kafka:7.3.0
 #gitlab/gitlab-runner
 #minio/minio
 #支持指定架构
+
+# 消息队列与流处理
+confluentinc/cp-kafka:7.3.0          # Apache Kafka 企业级发行版（带管理界面）
+confluentinc/cp-zookeeper:7.3.0      # Kafka 依赖的分布式协调服务
+bitnami/kafka:3.4                    # 轻量级 Kafka 发行版（适合开发环境）
+rabbitmq:3.11-management             # AMQP 消息队列（带Web管理界面）
+
+# 数据库与缓存
+mysql:8.0                            # MySQL 关系型数据库（带最新优化）
+postgres:15.1                        # PostgreSQL 关系型数据库
+mongo:6.0                            # MongoDB NoSQL 文档数据库
+redis:7.0                            # 内存键值数据库（支持集群）
+elasticsearch:8.5.0                  # 分布式搜索引擎
+redis/redis-stack:latest             # Redis 全栈方案（含RedisJSON/Graph等模块）
+
+# Java 开发基础
+openjdk:17-jdk                       # 官方 OpenJDK 17 基础镜像
+eclipse-temurin:17-jdk               # 企业级Java运行时（AdoptOpenJDK继任者）
+springio/spring-boot:3.0.0           # 官方Spring Boot生产镜像
+
+# 应用服务器
+tomcat:10.1-jdk17                    # Apache Tomcat Servlet容器（Jakarta EE 10）
+wildfly:26.1.1                       # WildFly 应用服务器（原JBoss）
+jetty:11.0-jdk17                     # Eclipse Jetty轻量级Web容器
+
+# 游戏服务器
+itzg/minecraft-server:latest         # Minecraft 原版服务器（自动更新）
+cm2network/csgo:latest               # CS:GO 专用服务器
+lucasheld/arkse:latest               # 方舟生存进化服务器
+pufferpanel/pufferpanel:latest       # 游戏服务器Web管理面板（支持多种游戏）
+
+# 监控与可观测性
+prom/prometheus:latest               # 监控指标收集服务
+grafana/grafana:9.3.2                # 监控数据可视化平台
+jaegertracing/all-in-one:1.38        # 分布式追踪系统（微服务调试）
+loki:2.7.0                           # Grafana 日志聚合系统
+tempo:1.5.0                          # Grafana 分布式追踪后端
+
+# CI/CD与质量管控
+jenkins/jenkins:lts-jdk17            # Jenkins 持续集成服务器
+sonarqube:community                  # 代码质量分析平台
+gitlab/gitlab-ce:latest              # 自托管Git代码平台
+
+# 网络与代理
+nginx:1.23                           # 反向代理/负载均衡
+traefik:v2.9                         # 云原生边缘路由器
+envoyproxy/envoy:v1.24               # 高性能服务代理
+
+# 其他中间件
+consul:1.14                          # 服务发现与配置中心
+vault:1.12                           # 密钥管理系统
+minio/minio:latest                   # S3兼容对象存储
+nats:2.9                             # 高性能消息系统
+
 --platform=linux/arm64 xiaoyaliu/alist
