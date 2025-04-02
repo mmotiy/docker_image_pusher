@@ -18,7 +18,9 @@
 #openjdk:11-jre
 #openjdk:8-jre
 #containrrr/watchtower
-ghcr.io/open-webui/open-webui:main
+#ghcr.io/open-webui/open-webui:main
+confluentinc/cp-zookeeper:7.3.0
+confluentinc/cp-kafka:7.3.0
 #gitlab/gitlab-runner
 #minio/minio
 #支持指定架构
