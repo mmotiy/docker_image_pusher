@@ -38,7 +38,7 @@
 #redis:7.0                            # 内存键值数据库（支持集群）
 #elasticsearch:8.5.0                  # 分布式搜索引擎
 #redis/redis-stack:latest             # Redis 全栈方案（含RedisJSON/Graph等模块）
-
+alibabacloud/redis-shake:latest
 # Java 开发基础
 #openjdk:17-jdk                       # 官方 OpenJDK 17 基础镜像
 #eclipse-temurin:17-jdk               # 企业级Java运行时（AdoptOpenJDK继任者）
@@ -78,6 +78,6 @@
 #minio/minio:latest                   # S3兼容对象存储
 #nats:2.9                             # 高性能消息系统
 #ubuntu:latest
-portainer/agent:lts
-portainer/portainer-ce:lts
+#portainer/agent:lts
+#portainer/portainer-ce:lts
 --platform=linux/arm64 xiaoyaliu/alist
