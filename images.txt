@@ -38,7 +38,7 @@
 #redis:7.0                            # 内存键值数据库（支持集群）
 #elasticsearch:8.5.0                  # 分布式搜索引擎
 #redis/redis-stack:latest             # Redis 全栈方案（含RedisJSON/Graph等模块）
-alibabacloud/redis-shake:latest
+ghcr.io/tair-opensource/redisshake:latest
 # Java 开发基础
 #openjdk:17-jdk                       # 官方 OpenJDK 17 基础镜像
 #eclipse-temurin:17-jdk               # 企业级Java运行时（AdoptOpenJDK继任者）
