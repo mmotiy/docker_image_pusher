@@ -80,4 +80,5 @@ ghcr.io/tair-opensource/redisshake:latest
 #ubuntu:latest
 #portainer/agent:lts
 #portainer/portainer-ce:lts
+ghcr.io/home-assistant/home-assistant:stable
 --platform=linux/arm64 xiaoyaliu/alist
